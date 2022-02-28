@@ -1,0 +1,349 @@
+ERROR - 2021-12-26 00:53:08 --> Cannot delete or update a parent row: a foreign key constraint fails (`apotek`.`tb_obat_masuk`, CONSTRAINT `tb_obat_masuk_ibfk_2` FOREIGN KEY (`id_distributor`) REFERENCES `tb_distributor` (`id_distributor`))
+CRITICAL - 2021-12-26 00:53:08 --> Cannot delete or update a parent row: a foreign key constraint fails (`apotek`.`tb_obat_masuk`, CONSTRAINT `tb_obat_masuk_ibfk_2` FOREIGN KEY (`id_distributor`) REFERENCES `tb_distributor` (`id_distributor`))
+#0 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(280): mysqli->query()
+#1 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/Database/BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/Database/BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(2175): CodeIgniter\Database\BaseConnection->query()
+#4 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/Model.php(359): CodeIgniter\Database\BaseBuilder->delete()
+#5 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/BaseModel.php(963): CodeIgniter\Model->doDelete()
+#6 /home/hades/Documents/mutiara/apotek-widyaa/app/Controllers/Distributor.php(156): CodeIgniter\BaseModel->delete()
+#7 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Distributor->delete()
+#8 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#9 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#10 /home/hades/Documents/mutiara/apotek-widyaa/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#11 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/home/hades/Doc...')
+#12 {main}
+ERROR - 2021-12-26 00:53:17 --> Cannot delete or update a parent row: a foreign key constraint fails (`apotek`.`tb_obat_masuk`, CONSTRAINT `tb_obat_masuk_ibfk_2` FOREIGN KEY (`id_distributor`) REFERENCES `tb_distributor` (`id_distributor`))
+CRITICAL - 2021-12-26 00:53:17 --> Cannot delete or update a parent row: a foreign key constraint fails (`apotek`.`tb_obat_masuk`, CONSTRAINT `tb_obat_masuk_ibfk_2` FOREIGN KEY (`id_distributor`) REFERENCES `tb_distributor` (`id_distributor`))
+#0 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(280): mysqli->query()
+#1 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/Database/BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/Database/BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(2175): CodeIgniter\Database\BaseConnection->query()
+#4 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/Model.php(359): CodeIgniter\Database\BaseBuilder->delete()
+#5 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/BaseModel.php(963): CodeIgniter\Model->doDelete()
+#6 /home/hades/Documents/mutiara/apotek-widyaa/app/Controllers/Distributor.php(156): CodeIgniter\BaseModel->delete()
+#7 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Distributor->delete()
+#8 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#9 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#10 /home/hades/Documents/mutiara/apotek-widyaa/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#11 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/home/hades/Doc...')
+#12 {main}
+CRITICAL - 2021-12-26 00:53:29 --> Undefined variable: obat11
+#0 /home/hades/Documents/mutiara/apotek-widyaa/app/Controllers/Distributor.php(121): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Distributor->edit()
+#2 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#3 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/hades/Documents/mutiara/apotek-widyaa/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/home/hades/Doc...')
+#6 {main}
+CRITICAL - 2021-12-26 00:54:20 --> Undefined variable: title
+#0 /home/hades/Documents/mutiara/apotek-widyaa/app/Views/distributor/edit.php(7): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/View/View.php(214): include('/home/hades/Doc...')
+#2 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/Common.php(1092): CodeIgniter\View\View->render()
+#4 /home/hades/Documents/mutiara/apotek-widyaa/app/Controllers/Distributor.php(150): view()
+#5 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Distributor->edit()
+#6 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/hades/Documents/mutiara/apotek-widyaa/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/home/hades/Doc...')
+#10 {main}
+CRITICAL - 2021-12-26 00:54:24 --> Undefined variable: title
+#0 /home/hades/Documents/mutiara/apotek-widyaa/app/Views/distributor/edit.php(7): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/View/View.php(214): include('/home/hades/Doc...')
+#2 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/Common.php(1092): CodeIgniter\View\View->render()
+#4 /home/hades/Documents/mutiara/apotek-widyaa/app/Controllers/Distributor.php(150): view()
+#5 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Distributor->edit()
+#6 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/hades/Documents/mutiara/apotek-widyaa/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/home/hades/Doc...')
+#10 {main}
+CRITICAL - 2021-12-26 03:01:16 --> Too few arguments to function CodeIgniter\Router\RouteCollection::get(), 1 passed in /home/hades/Documents/mutiara/apotek-widyaa/app/Config/Routes.php on line 71 and at least 2 expected
+#0 /home/hades/Documents/mutiara/apotek-widyaa/app/Config/Routes.php(71): CodeIgniter\Router\RouteCollection->get()
+#1 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/CodeIgniter.php(689): require('/home/hades/Doc...')
+#2 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/CodeIgniter.php(358): CodeIgniter\CodeIgniter->tryToRouteIt()
+#3 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/hades/Documents/mutiara/apotek-widyaa/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/home/hades/Doc...')
+#6 {main}
+CRITICAL - 2021-12-26 03:06:10 --> Too few arguments to function CodeIgniter\Router\RouteCollection::get(), 1 passed in /home/hades/Documents/mutiara/apotek-widyaa/app/Config/Routes.php on line 71 and at least 2 expected
+#0 /home/hades/Documents/mutiara/apotek-widyaa/app/Config/Routes.php(71): CodeIgniter\Router\RouteCollection->get()
+#1 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/CodeIgniter.php(689): require('/home/hades/Doc...')
+#2 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/CodeIgniter.php(358): CodeIgniter\CodeIgniter->tryToRouteIt()
+#3 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/hades/Documents/mutiara/apotek-widyaa/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/home/hades/Doc...')
+#6 {main}
+CRITICAL - 2021-12-26 03:07:10 --> Cannot use object of type stdClass as array
+#0 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/View/View.php(214): include()
+#1 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/Common.php(1092): CodeIgniter\View\View->render()
+#3 /home/hades/Documents/mutiara/apotek-widyaa/app/Controllers/Distributor.php(153): view()
+#4 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Distributor->generatePDF()
+#5 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#6 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#7 /home/hades/Documents/mutiara/apotek-widyaa/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/home/hades/Doc...')
+#9 {main}
+CRITICAL - 2021-12-26 03:11:22 --> Cannot use object of type stdClass as array
+#0 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/View/View.php(214): include()
+#1 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/Common.php(1092): CodeIgniter\View\View->render()
+#3 /home/hades/Documents/mutiara/apotek-widyaa/app/Controllers/Distributor.php(153): view()
+#4 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Distributor->generatePDF()
+#5 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#6 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#7 /home/hades/Documents/mutiara/apotek-widyaa/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/home/hades/Doc...')
+#9 {main}
+CRITICAL - 2021-12-26 03:11:26 --> Cannot use object of type stdClass as array
+#0 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/View/View.php(214): include()
+#1 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/Common.php(1092): CodeIgniter\View\View->render()
+#3 /home/hades/Documents/mutiara/apotek-widyaa/app/Controllers/Distributor.php(153): view()
+#4 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Distributor->generatePDF()
+#5 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#6 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#7 /home/hades/Documents/mutiara/apotek-widyaa/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/home/hades/Doc...')
+#9 {main}
+CRITICAL - 2021-12-26 03:12:47 --> Cannot use object of type stdClass as array
+#0 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/View/View.php(214): include()
+#1 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/Common.php(1092): CodeIgniter\View\View->render()
+#3 /home/hades/Documents/mutiara/apotek-widyaa/app/Controllers/Distributor.php(153): view()
+#4 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Distributor->generatePDF()
+#5 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#6 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#7 /home/hades/Documents/mutiara/apotek-widyaa/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/home/hades/Doc...')
+#9 {main}
+CRITICAL - 2021-12-26 03:12:56 --> Cannot use object of type stdClass as array
+#0 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/View/View.php(214): include()
+#1 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/Common.php(1092): CodeIgniter\View\View->render()
+#3 /home/hades/Documents/mutiara/apotek-widyaa/app/Controllers/Distributor.php(153): view()
+#4 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Distributor->generatePDF()
+#5 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#6 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#7 /home/hades/Documents/mutiara/apotek-widyaa/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/home/hades/Doc...')
+#9 {main}
+CRITICAL - 2021-12-26 03:19:06 --> Invalid file: /keluar/template-obat-keluar.php
+#0 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+#1 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/Common.php(1092): CodeIgniter\View\View->render()
+#2 /home/hades/Documents/mutiara/apotek-widyaa/app/Controllers/Keluar.php(164): view()
+#3 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Keluar->generatePDF()
+#4 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#5 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#6 /home/hades/Documents/mutiara/apotek-widyaa/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/home/hades/Doc...')
+#8 {main}
+CRITICAL - 2021-12-26 03:23:23 --> Invalid file: /keluar/template-obat-keluar.php
+#0 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+#1 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/Common.php(1092): CodeIgniter\View\View->render()
+#2 /home/hades/Documents/mutiara/apotek-widyaa/app/Controllers/Keluar.php(164): view()
+#3 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Keluar->generatePDF()
+#4 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#5 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#6 /home/hades/Documents/mutiara/apotek-widyaa/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/home/hades/Doc...')
+#8 {main}
+CRITICAL - 2021-12-26 03:28:28 --> Undefined property: stdClass::$id
+#0 /home/hades/Documents/mutiara/apotek-widyaa/app/Views/admin/index.php(41): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/View/View.php(214): include('/home/hades/Doc...')
+#2 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/Common.php(1092): CodeIgniter\View\View->render()
+#4 /home/hades/Documents/mutiara/apotek-widyaa/app/Controllers/Admin.php(41): view()
+#5 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Admin->index()
+#6 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/hades/Documents/mutiara/apotek-widyaa/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/home/hades/Doc...')
+#10 {main}
+CRITICAL - 2021-12-26 03:46:31 --> Cannot declare class App\Models\satuanModel, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-12-26 03:47:25 --> Cannot declare class App\Models\satuanModel, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-12-26 03:47:39 --> Cannot declare class App\Models\satuanModel, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-12-26 20:38:01 --> Too few arguments to function App\Controllers\Masuk::generatePDF(), 0 passed in /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/CodeIgniter.php on line 802 and exactly 2 expected
+#0 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Masuk->generatePDF()
+#1 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#2 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#3 /home/hades/Documents/mutiara/apotek-widyaa/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/home/hades/Doc...')
+#5 {main}
+CRITICAL - 2021-12-26 20:46:43 --> Too few arguments to function App\Controllers\Masuk::generatePDF(), 0 passed in /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/CodeIgniter.php on line 802 and exactly 2 expected
+#0 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Masuk->generatePDF()
+#1 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#2 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#3 /home/hades/Documents/mutiara/apotek-widyaa/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/home/hades/Doc...')
+#5 {main}
+CRITICAL - 2021-12-26 22:21:48 --> Too few arguments to function App\Controllers\Masuk::generatePDF(), 0 passed in /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/CodeIgniter.php on line 802 and exactly 2 expected
+#0 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Masuk->generatePDF()
+#1 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#2 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#3 /home/hades/Documents/mutiara/apotek-widyaa/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/home/hades/Doc...')
+#5 {main}
+CRITICAL - 2021-12-26 22:22:22 --> Too few arguments to function App\Controllers\Masuk::generatePDF(), 0 passed in /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/CodeIgniter.php on line 802 and exactly 2 expected
+#0 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Masuk->generatePDF()
+#1 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#2 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#3 /home/hades/Documents/mutiara/apotek-widyaa/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/home/hades/Doc...')
+#5 {main}
+CRITICAL - 2021-12-26 22:22:26 --> Undefined variable: bulan
+#0 /home/hades/Documents/mutiara/apotek-widyaa/app/Views/masuk/index.php(40): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/View/View.php(214): include('/home/hades/Doc...')
+#2 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/Common.php(1092): CodeIgniter\View\View->render()
+#4 /home/hades/Documents/mutiara/apotek-widyaa/app/Controllers/Masuk.php(35): view()
+#5 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Masuk->index()
+#6 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/hades/Documents/mutiara/apotek-widyaa/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/home/hades/Doc...')
+#10 {main}
+CRITICAL - 2021-12-26 22:22:28 --> Undefined variable: bulan
+#0 /home/hades/Documents/mutiara/apotek-widyaa/app/Views/masuk/index.php(40): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/View/View.php(214): include('/home/hades/Doc...')
+#2 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/Common.php(1092): CodeIgniter\View\View->render()
+#4 /home/hades/Documents/mutiara/apotek-widyaa/app/Controllers/Masuk.php(35): view()
+#5 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Masuk->index()
+#6 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/hades/Documents/mutiara/apotek-widyaa/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/home/hades/Doc...')
+#10 {main}
+CRITICAL - 2021-12-26 22:24:50 --> Undefined variable: bulan
+#0 /home/hades/Documents/mutiara/apotek-widyaa/app/Views/masuk/index.php(40): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/View/View.php(214): include('/home/hades/Doc...')
+#2 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/Common.php(1092): CodeIgniter\View\View->render()
+#4 /home/hades/Documents/mutiara/apotek-widyaa/app/Controllers/Masuk.php(35): view()
+#5 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Masuk->index()
+#6 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/hades/Documents/mutiara/apotek-widyaa/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/home/hades/Doc...')
+#10 {main}
+CRITICAL - 2021-12-26 22:39:17 --> Call to undefined function App\Controllers\setVar()
+#0 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Masuk->generatePDF()
+#1 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#2 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#3 /home/hades/Documents/mutiara/apotek-widyaa/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/home/hades/Doc...')
+#5 {main}
+CRITICAL - 2021-12-26 22:39:35 --> Call to undefined function App\Controllers\setVar()
+#0 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Masuk->generatePDF()
+#1 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#2 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#3 /home/hades/Documents/mutiara/apotek-widyaa/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/home/hades/Doc...')
+#5 {main}
+CRITICAL - 2021-12-26 22:40:06 --> Call to undefined method App\Controllers\Masuk::setVar()
+#0 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Masuk->generatePDF()
+#1 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#2 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#3 /home/hades/Documents/mutiara/apotek-widyaa/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/home/hades/Doc...')
+#5 {main}
+CRITICAL - 2021-12-26 22:42:24 --> Too few arguments to function App\Controllers\Masuk::generatePDF(), 0 passed in /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/CodeIgniter.php on line 802 and exactly 2 expected
+#0 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Masuk->generatePDF()
+#1 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#2 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#3 /home/hades/Documents/mutiara/apotek-widyaa/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/home/hades/Doc...')
+#5 {main}
+CRITICAL - 2021-12-26 22:42:42 --> Too few arguments to function App\Controllers\Masuk::generatePDF(), 0 passed in /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/CodeIgniter.php on line 802 and exactly 2 expected
+#0 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Masuk->generatePDF()
+#1 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#2 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#3 /home/hades/Documents/mutiara/apotek-widyaa/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/home/hades/Doc...')
+#5 {main}
+CRITICAL - 2021-12-26 22:43:57 --> Too few arguments to function App\Controllers\Masuk::generatePDF(), 0 passed in /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/CodeIgniter.php on line 802 and exactly 2 expected
+#0 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Masuk->generatePDF()
+#1 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#2 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#3 /home/hades/Documents/mutiara/apotek-widyaa/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/home/hades/Doc...')
+#5 {main}
+CRITICAL - 2021-12-26 22:44:05 --> Undefined variable: bulan
+#0 /home/hades/Documents/mutiara/apotek-widyaa/app/Views/masuk/index.php(40): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/View/View.php(214): include('/home/hades/Doc...')
+#2 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/Common.php(1092): CodeIgniter\View\View->render()
+#4 /home/hades/Documents/mutiara/apotek-widyaa/app/Controllers/Masuk.php(35): view()
+#5 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Masuk->index()
+#6 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/hades/Documents/mutiara/apotek-widyaa/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/home/hades/Doc...')
+#10 {main}
+CRITICAL - 2021-12-26 22:47:55 --> Too few arguments to function App\Controllers\Masuk::generatePDF(), 0 passed in /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/CodeIgniter.php on line 802 and exactly 2 expected
+#0 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Masuk->generatePDF()
+#1 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#2 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#3 /home/hades/Documents/mutiara/apotek-widyaa/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/home/hades/Doc...')
+#5 {main}
+CRITICAL - 2021-12-26 22:48:10 --> Undefined variable: bulan
+#0 /home/hades/Documents/mutiara/apotek-widyaa/app/Controllers/Masuk.php(186): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Masuk->generatePDF()
+#2 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#3 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/hades/Documents/mutiara/apotek-widyaa/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/home/hades/Doc...')
+#6 {main}
+CRITICAL - 2021-12-26 22:48:31 --> Call to undefined method App\Controllers\Masuk::getGet()
+#0 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Masuk->generatePDF()
+#1 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#2 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#3 /home/hades/Documents/mutiara/apotek-widyaa/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/home/hades/Doc...')
+#5 {main}
+CRITICAL - 2021-12-26 22:49:11 --> Undefined variable: request
+#0 /home/hades/Documents/mutiara/apotek-widyaa/app/Controllers/Masuk.php(180): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Masuk->generatePDF()
+#2 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#3 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/hades/Documents/mutiara/apotek-widyaa/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/home/hades/Doc...')
+#6 {main}
+CRITICAL - 2021-12-26 22:49:40 --> Call to undefined function App\Controllers\getGet()
+#0 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Masuk->generatePDF()
+#1 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#2 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#3 /home/hades/Documents/mutiara/apotek-widyaa/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/home/hades/Doc...')
+#5 {main}
+CRITICAL - 2021-12-26 22:52:51 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::and()
+#0 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Masuk->generatePDF()
+#1 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#2 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#3 /home/hades/Documents/mutiara/apotek-widyaa/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/home/hades/Doc...')
+#5 {main}
+ERROR - 2021-12-26 23:14:45 --> Unknown column 'tb_obat.id_jenis' in 'on clause'
+CRITICAL - 2021-12-26 23:14:45 --> Unknown column 'tb_obat.id_jenis' in 'on clause'
+#0 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(280): mysqli->query()
+#1 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/Database/BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/Database/BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query()
+#4 /home/hades/Documents/mutiara/apotek-widyaa/app/Controllers/Masuk.php(30): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Masuk->index()
+#6 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/hades/Documents/mutiara/apotek-widyaa/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/home/hades/Doc...')
+#10 {main}

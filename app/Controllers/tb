@@ -1,0 +1,66 @@
+if ($this->request->isAJAX()) {
+            $id_distributor = $this->request->getVar('id_distributor');
+            $id_obat = $this->request->getVar('id_obat');
+            $zat_aktif_prekursor = $this->request->getVar('zat_aktif_prekursor');
+            $bentuk = $this->request->getVar('bentuk');
+            $satuan = $this->request->getVar('satuan');
+            $jumlah = $this->request->getVar('jumlah');
+            $keterangan = $this->request->getVar('keterangan');
+
+        $data = [];
+        $tmp_data = [
+                    'id_distributor' => $id_distributor,
+                    'id_obat' => $id_obat,
+                    'zat_aktif_prekursor' => $zat_aktif_prekursor,
+                    'bentuk' => $bentuk,
+                    'satuan' => $satuan,
+                    'jumlah' => $jumlah,
+                    'keterangan' => $keterangan,
+           
+        ];
+        foreach ($tmp_data as $k => $v){
+            for ($i = 0; $i <count($v); $i++) {
+                $data[$i][$k]= $v[$i];
+            }
+        }
+
+        
+            $prekursor = new prekursorModel();
+            $prekursor->insertBatch($data);
+            
+           
+
+
+            if ($this->request->isAJAX()) {
+            $id_distributor = $this->request->getVar('id_distributor');
+            $id_obat = $this->request->getVar('id_obat');
+            $zat_aktif_prekursor = $this->request->getVar('zat_aktif_prekursor');
+            $bentuk = $this->request->getVar('bentuk');
+            $satuan = $this->request->getVar('satuan');
+            $jumlah = $this->request->getVar('jumlah');
+            $keterangan = $this->request->getVar('keterangan');
+           
+            $jmldata = count($jumlah);
+            $prekursor = new prekursorModel();
+            
+            for ($i = 0; $i < $jmldata; $i++) {
+                $prekursor->insert([
+                    'id_distributor' => $id_distributor[$i],
+                    'id_obat' => $id_obat[$i],
+                    'zat_aktif_prekursor' => $zat_aktif_prekursor[$i],
+                    'bentuk' => $bentuk[$i],
+                    'satuan' => $satuan[$i],
+                    'jumlah' => $jumlah[$i],
+                    'keterangan' => $keterangan[$i],
+                ]);
+            }
+
+            $msg = [
+                'sukses' => "$jmldata data pesanan obah prekursor telah tersimpan"
+            ];
+
+            echo json_encode($msg);
+        }
+
+         <a href="<?= base_url('admin/edit/'.$user->userid); ?> " class="btn btn-warning" ><i class="fas fa-edit"></i></a>
+                                                

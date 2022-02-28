@@ -1,0 +1,42 @@
+CRITICAL - 2021-12-30 06:58:04 --> Invalid file: obat/stokhabis.php
+#0 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+#1 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/Common.php(1092): CodeIgniter\View\View->render()
+#2 /home/hades/Documents/mutiara/apotek-widyaa/app/Controllers/Obat.php(184): view()
+#3 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Obat->stokHabis()
+#4 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#5 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#6 /home/hades/Documents/mutiara/apotek-widyaa/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/home/hades/Doc...')
+#8 {main}
+CRITICAL - 2021-12-30 06:59:45 --> Class 'App\Controllers\jenisModel' not found
+#0 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Stok->edit()
+#1 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#2 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#3 /home/hades/Documents/mutiara/apotek-widyaa/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/home/hades/Doc...')
+#5 {main}
+CRITICAL - 2021-12-30 06:59:55 --> Class 'App\Controllers\jenisModel' not found
+#0 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Stok->edit()
+#1 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#2 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#3 /home/hades/Documents/mutiara/apotek-widyaa/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/home/hades/Doc...')
+#5 {main}
+CRITICAL - 2021-12-30 21:53:07 --> Invalid file: habis/index.php
+#0 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+#1 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/Common.php(1092): CodeIgniter\View\View->render()
+#2 /home/hades/Documents/mutiara/apotek-widyaa/app/Controllers/Stok.php(40): view()
+#3 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Stok->index()
+#4 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#5 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#6 /home/hades/Documents/mutiara/apotek-widyaa/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/home/hades/Doc...')
+#8 {main}
+CRITICAL - 2021-12-30 22:05:53 --> Undefined property: App\Controllers\Kadaluarsa::$builder2
+#0 /home/hades/Documents/mutiara/apotek-widyaa/app/Controllers/Kadaluarsa.php(38): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Kadaluarsa->index()
+#2 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#3 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/hades/Documents/mutiara/apotek-widyaa/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/home/hades/Doc...')
+#6 {main}

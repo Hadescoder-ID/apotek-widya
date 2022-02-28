@@ -1,0 +1,307 @@
+CRITICAL - 2021-12-31 00:41:29 --> Undefined property: App\Controllers\Kadaluarsa::$builder2
+#0 /home/hades/Documents/mutiara/apotek-widyaa/app/Controllers/Kadaluarsa.php(38): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Kadaluarsa->index()
+#2 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#3 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/hades/Documents/mutiara/apotek-widyaa/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/home/hades/Doc...')
+#6 {main}
+ERROR - 2021-12-31 03:10:36 --> Can't update table 'tb_obat' in stored function/trigger because it is already used by statement which invoked this stored function/trigger.
+CRITICAL - 2021-12-31 03:10:36 --> Can't update table 'tb_obat' in stored function/trigger because it is already used by statement which invoked this stored function/trigger.
+#0 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(280): mysqli->query()
+#1 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/Database/BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/Database/BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1875): CodeIgniter\Database\BaseConnection->query()
+#4 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/Model.php(298): CodeIgniter\Database\BaseBuilder->update()
+#5 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/BaseModel.php(865): CodeIgniter\Model->doUpdate()
+#6 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/Model.php(646): CodeIgniter\BaseModel->update()
+#7 /home/hades/Documents/mutiara/apotek-widyaa/app/Controllers/Stok.php(82): CodeIgniter\Model->update()
+#8 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Stok->edit()
+#9 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#10 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#11 /home/hades/Documents/mutiara/apotek-widyaa/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#12 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/home/hades/Doc...')
+#13 {main}
+ERROR - 2021-12-31 03:11:09 --> Can't update table 'tb_obat' in stored function/trigger because it is already used by statement which invoked this stored function/trigger.
+CRITICAL - 2021-12-31 03:11:09 --> Can't update table 'tb_obat' in stored function/trigger because it is already used by statement which invoked this stored function/trigger.
+#0 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(280): mysqli->query()
+#1 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/Database/BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/Database/BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1875): CodeIgniter\Database\BaseConnection->query()
+#4 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/Model.php(298): CodeIgniter\Database\BaseBuilder->update()
+#5 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/BaseModel.php(865): CodeIgniter\Model->doUpdate()
+#6 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/Model.php(646): CodeIgniter\BaseModel->update()
+#7 /home/hades/Documents/mutiara/apotek-widyaa/app/Controllers/Stok.php(82): CodeIgniter\Model->update()
+#8 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Stok->edit()
+#9 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#10 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#11 /home/hades/Documents/mutiara/apotek-widyaa/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#12 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/home/hades/Doc...')
+#13 {main}
+CRITICAL - 2021-12-31 03:21:16 --> Class 'App\Controllers\distributorModel' not found
+#0 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Stok->edit()
+#1 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#2 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#3 /home/hades/Documents/mutiara/apotek-widyaa/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/home/hades/Doc...')
+#5 {main}
+CRITICAL - 2021-12-31 03:21:48 --> Class 'App\Controllers\masukModel' not found
+#0 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Stok->edit()
+#1 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#2 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#3 /home/hades/Documents/mutiara/apotek-widyaa/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/home/hades/Doc...')
+#5 {main}
+CRITICAL - 2021-12-31 03:22:08 --> Trying to access array offset on value of type null
+#0 /home/hades/Documents/mutiara/apotek-widyaa/app/Views/stok/edit.php(15): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/View/View.php(214): include('/home/hades/Doc...')
+#2 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/Common.php(1092): CodeIgniter\View\View->render()
+#4 /home/hades/Documents/mutiara/apotek-widyaa/app/Controllers/Stok.php(94): view()
+#5 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Stok->edit()
+#6 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/hades/Documents/mutiara/apotek-widyaa/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/home/hades/Doc...')
+#10 {main}
+CRITICAL - 2021-12-31 03:24:05 --> Trying to access array offset on value of type null
+#0 /home/hades/Documents/mutiara/apotek-widyaa/app/Views/stok/edit.php(15): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/View/View.php(214): include('/home/hades/Doc...')
+#2 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/Common.php(1092): CodeIgniter\View\View->render()
+#4 /home/hades/Documents/mutiara/apotek-widyaa/app/Controllers/Stok.php(94): view()
+#5 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Stok->edit()
+#6 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/hades/Documents/mutiara/apotek-widyaa/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/home/hades/Doc...')
+#10 {main}
+CRITICAL - 2021-12-31 03:25:06 --> Trying to access array offset on value of type null
+#0 /home/hades/Documents/mutiara/apotek-widyaa/app/Views/stok/edit.php(15): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/View/View.php(214): include('/home/hades/Doc...')
+#2 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/Common.php(1092): CodeIgniter\View\View->render()
+#4 /home/hades/Documents/mutiara/apotek-widyaa/app/Controllers/Stok.php(94): view()
+#5 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Stok->edit()
+#6 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/hades/Documents/mutiara/apotek-widyaa/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/home/hades/Doc...')
+#10 {main}
+CRITICAL - 2021-12-31 03:26:20 --> Trying to access array offset on value of type null
+#0 /home/hades/Documents/mutiara/apotek-widyaa/app/Views/stok/edit.php(15): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/View/View.php(214): include('/home/hades/Doc...')
+#2 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/Common.php(1092): CodeIgniter\View\View->render()
+#4 /home/hades/Documents/mutiara/apotek-widyaa/app/Controllers/Stok.php(90): view()
+#5 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Stok->edit()
+#6 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/hades/Documents/mutiara/apotek-widyaa/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/home/hades/Doc...')
+#10 {main}
+CRITICAL - 2021-12-31 03:28:04 --> Undefined variable: masuk
+#0 /home/hades/Documents/mutiara/apotek-widyaa/app/Views/stok/edit.php(15): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/View/View.php(214): include('/home/hades/Doc...')
+#2 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/Common.php(1092): CodeIgniter\View\View->render()
+#4 /home/hades/Documents/mutiara/apotek-widyaa/app/Controllers/Stok.php(90): view()
+#5 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Stok->edit()
+#6 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/hades/Documents/mutiara/apotek-widyaa/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/home/hades/Doc...')
+#10 {main}
+CRITICAL - 2021-12-31 03:29:04 --> Trying to access array offset on value of type null
+#0 /home/hades/Documents/mutiara/apotek-widyaa/app/Views/stok/edit.php(15): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/View/View.php(214): include('/home/hades/Doc...')
+#2 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/Common.php(1092): CodeIgniter\View\View->render()
+#4 /home/hades/Documents/mutiara/apotek-widyaa/app/Controllers/Stok.php(90): view()
+#5 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Stok->edit()
+#6 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/hades/Documents/mutiara/apotek-widyaa/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/home/hades/Doc...')
+#10 {main}
+ERROR - 2021-12-31 03:40:50 --> Not unique table/alias: 'tb_obat'
+CRITICAL - 2021-12-31 03:40:50 --> Not unique table/alias: 'tb_obat'
+#0 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(280): mysqli->query()
+#1 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/Database/BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/Database/BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query()
+#4 /home/hades/Documents/mutiara/apotek-widyaa/app/Controllers/Stok.php(40): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Stok->index()
+#6 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/hades/Documents/mutiara/apotek-widyaa/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/home/hades/Doc...')
+#10 {main}
+ERROR - 2021-12-31 03:43:38 --> Not unique table/alias: 'tb_obat'
+CRITICAL - 2021-12-31 03:43:38 --> Not unique table/alias: 'tb_obat'
+#0 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(280): mysqli->query()
+#1 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/Database/BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/Database/BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query()
+#4 /home/hades/Documents/mutiara/apotek-widyaa/app/Controllers/Stok.php(40): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Stok->index()
+#6 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/hades/Documents/mutiara/apotek-widyaa/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/home/hades/Doc...')
+#10 {main}
+ERROR - 2021-12-31 03:44:37 --> Not unique table/alias: 'tb_obat'
+CRITICAL - 2021-12-31 03:44:37 --> Not unique table/alias: 'tb_obat'
+#0 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(280): mysqli->query()
+#1 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/Database/BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/Database/BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query()
+#4 /home/hades/Documents/mutiara/apotek-widyaa/app/Controllers/Stok.php(40): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Stok->index()
+#6 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/hades/Documents/mutiara/apotek-widyaa/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/home/hades/Doc...')
+#10 {main}
+ERROR - 2021-12-31 03:45:01 --> Unknown column 'tb_obat_masuk.obat_id' in 'on clause'
+CRITICAL - 2021-12-31 03:45:01 --> Unknown column 'tb_obat_masuk.obat_id' in 'on clause'
+#0 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(280): mysqli->query()
+#1 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/Database/BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/Database/BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query()
+#4 /home/hades/Documents/mutiara/apotek-widyaa/app/Controllers/Stok.php(40): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Stok->index()
+#6 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/hades/Documents/mutiara/apotek-widyaa/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/home/hades/Doc...')
+#10 {main}
+ERROR - 2021-12-31 03:50:59 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '.`id_masuk`, `tb_obat`.`nama_obat`, `tb_satuan`.`nama_satuan`, `tb_obat`.`stok`,' at line 1
+CRITICAL - 2021-12-31 03:50:59 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '.`id_masuk`, `tb_obat`.`nama_obat`, `tb_satuan`.`nama_satuan`, `tb_obat`.`stok`,' at line 1
+#0 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(280): mysqli->query()
+#1 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/Database/BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/Database/BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query()
+#4 /home/hades/Documents/mutiara/apotek-widyaa/app/Controllers/Stok.php(40): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Stok->index()
+#6 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/hades/Documents/mutiara/apotek-widyaa/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/home/hades/Doc...')
+#10 {main}
+CRITICAL - 2021-12-31 03:52:07 --> Too few arguments to function CodeIgniter\Database\BaseBuilder::join(), 1 passed in /home/hades/Documents/mutiara/apotek-widyaa/app/Controllers/Stok.php on line 36 and at least 2 expected
+#0 /home/hades/Documents/mutiara/apotek-widyaa/app/Controllers/Stok.php(36): CodeIgniter\Database\BaseBuilder->join()
+#1 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Stok->index()
+#2 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#3 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/hades/Documents/mutiara/apotek-widyaa/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/home/hades/Doc...')
+#6 {main}
+ERROR - 2021-12-31 03:53:27 --> Unknown column 'tb_obat' in 'from clause'
+CRITICAL - 2021-12-31 03:53:27 --> Unknown column 'tb_obat' in 'from clause'
+#0 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(280): mysqli->query()
+#1 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/Database/BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/Database/BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query()
+#4 /home/hades/Documents/mutiara/apotek-widyaa/app/Controllers/Stok.php(40): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Stok->index()
+#6 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/hades/Documents/mutiara/apotek-widyaa/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/home/hades/Doc...')
+#10 {main}
+ERROR - 2021-12-31 03:54:08 --> Unknown column 'tb_obat.nama_obat' in 'field list'
+CRITICAL - 2021-12-31 03:54:08 --> Unknown column 'tb_obat.nama_obat' in 'field list'
+#0 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(280): mysqli->query()
+#1 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/Database/BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/Database/BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query()
+#4 /home/hades/Documents/mutiara/apotek-widyaa/app/Controllers/Stok.php(40): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Stok->index()
+#6 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/hades/Documents/mutiara/apotek-widyaa/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/home/hades/Doc...')
+#10 {main}
+ERROR - 2021-12-31 03:55:32 --> Unknown column 'tb_satuan.id_satuan' in 'on clause'
+CRITICAL - 2021-12-31 03:55:32 --> Unknown column 'tb_satuan.id_satuan' in 'on clause'
+#0 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(280): mysqli->query()
+#1 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/Database/BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/Database/BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query()
+#4 /home/hades/Documents/mutiara/apotek-widyaa/app/Controllers/Stok.php(40): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Stok->index()
+#6 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/hades/Documents/mutiara/apotek-widyaa/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/home/hades/Doc...')
+#10 {main}
+ERROR - 2021-12-31 03:55:55 --> Unknown column 'tb_satuan.id_satuan' in 'on clause'
+CRITICAL - 2021-12-31 03:55:55 --> Unknown column 'tb_satuan.id_satuan' in 'on clause'
+#0 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(280): mysqli->query()
+#1 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/Database/BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/Database/BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query()
+#4 /home/hades/Documents/mutiara/apotek-widyaa/app/Controllers/Stok.php(40): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Stok->index()
+#6 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/hades/Documents/mutiara/apotek-widyaa/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/home/hades/Doc...')
+#10 {main}
+ERROR - 2021-12-31 03:55:58 --> Unknown column 'tb_satuan.id_satuan' in 'on clause'
+CRITICAL - 2021-12-31 03:55:58 --> Unknown column 'tb_satuan.id_satuan' in 'on clause'
+#0 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(280): mysqli->query()
+#1 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/Database/BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/Database/BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query()
+#4 /home/hades/Documents/mutiara/apotek-widyaa/app/Controllers/Stok.php(40): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Stok->index()
+#6 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/hades/Documents/mutiara/apotek-widyaa/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/home/hades/Doc...')
+#10 {main}
+CRITICAL - 2021-12-31 04:01:40 --> Too few arguments to function App\Controllers\Stok::edit(), 0 passed in /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/CodeIgniter.php on line 802 and exactly 1 expected
+#0 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Stok->edit()
+#1 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#2 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#3 /home/hades/Documents/mutiara/apotek-widyaa/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/home/hades/Doc...')
+#5 {main}
+CRITICAL - 2021-12-31 04:03:58 --> Undefined property: stdClass::$id_masuk
+#0 /home/hades/Documents/mutiara/apotek-widyaa/app/Views/stok/index.php(49): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/View/View.php(214): include('/home/hades/Doc...')
+#2 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/Common.php(1092): CodeIgniter\View\View->render()
+#4 /home/hades/Documents/mutiara/apotek-widyaa/app/Controllers/Stok.php(43): view()
+#5 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Stok->index()
+#6 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/hades/Documents/mutiara/apotek-widyaa/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/home/hades/Doc...')
+#10 {main}
+CRITICAL - 2021-12-31 04:07:51 --> Undefined property: App\Controllers\Kadaluarsa::$builder2
+#0 /home/hades/Documents/mutiara/apotek-widyaa/app/Controllers/Kadaluarsa.php(38): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Kadaluarsa->index()
+#2 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#3 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/hades/Documents/mutiara/apotek-widyaa/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/home/hades/Doc...')
+#6 {main}
+CRITICAL - 2021-12-31 04:51:11 --> Undefined property: App\Controllers\Kadaluarsa::$builder2
+#0 /home/hades/Documents/mutiara/apotek-widyaa/app/Controllers/Kadaluarsa.php(38): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Kadaluarsa->index()
+#2 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#3 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/hades/Documents/mutiara/apotek-widyaa/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/home/hades/Doc...')
+#6 {main}
+CRITICAL - 2021-12-31 05:18:13 --> Undefined property: App\Controllers\Kadaluarsa::$builder2
+#0 /home/hades/Documents/mutiara/apotek-widyaa/app/Controllers/Kadaluarsa.php(38): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Kadaluarsa->index()
+#2 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#3 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/hades/Documents/mutiara/apotek-widyaa/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/home/hades/Doc...')
+#6 {main}

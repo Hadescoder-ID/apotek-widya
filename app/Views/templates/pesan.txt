@@ -1,0 +1,63 @@
+<a class="nav-link dropdown-toggle" href="#" id="messagesDropdown" role="button"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <i class="fas fa-envelope fa-fw"></i>
+                                <!-- Counter - Messages -->
+                                <?php if($dataobat <= 5 ) : ?>
+                                <span class="badge badge-danger badge-counter">!</span>
+
+                                <?php endif; ?>
+                            </a>
+                            <!-- Dropdown - Messages -->
+                            <div class="dropdown-list dropdown-menu dropdown-menu-right shadow animated--grow-in"
+                                aria-labelledby="messagesDropdown">
+                                <h6 class="dropdown-header">
+                                    Message Center
+                                </h6>
+                               
+                                <?php foreach($dataobat as $d) : ?> 
+                                    <a class="dropdown-item d-flex align-items-center" href="<?= base_url('obat/index'); ?>">
+                                        <div class="dropdown-list-image mr-3">
+                                            
+                                            <div class="status-indicator"></div>
+                                        </div>
+                                        <div>
+                                            
+                                            <div class="text-truncate">Stok <?= $d['nama_obat']; ?> telah menipis, segera mengisi stok obat/barang. </div>
+                                            
+                                        </div>
+                                    </a>
+                                <?php endforeach; ?>
+                                <?php foreach($kadaluarsa as $k) : ?> 
+                                    <a class="dropdown-item d-flex align-items-center" href="<?= base_url('masuk/index'); ?>">
+                                        <div class="dropdown-list-image mr-3">
+                                            
+                                            <div class="status-indicator"></div>
+                                        </div>
+                                        <div>
+                                            
+                                            <div class="text-truncate">Obat <?= $k['nama_obat']; ?> telah Kadaluarsa, segera mengisi stok obat/barang. </div>
+                                            
+                                        </div>
+                                    </a>
+                                <?php endforeach; ?>
+
+<h6 class="collapse-header">Pesan Obat :</h6>
+            <a class="collapse-item" href="<?= base_url('alkes/index'); ?>">Obat & Alat Kesehatan</a>
+            <?php if(in_groups('admin')) : ?>
+            <a class="collapse-item" href="<?= base_url('prekursor/index'); ?>">Obat Prekursor</a>
+            <?php endif; ?>
+<a href="<?= base_url('obat/detail/'.$o->id_obat); ?>" class="btn btn-info"><i
+          <h6 class="collapse-header">Pesan Obat :</h6>
+                <a class="collapse-item" href="<?= base_url('alkes/index'); ?>">Obat & Alat Kesehatan</a>
+                <?php if(in_groups('admin')) : ?>
+                <a class="collapse-item" href="<?= base_url('prekursor/index'); ?>">Obat Prekursor</a>
+                <?php endif; ?>                                      class="fas fa-info"></i></a>
+
+
+                                                 <a href="<?= base_url('satuan/detail/'. $st['id_satuan']); ?>" class="btn btn-info" ><i class="fas fa-info"></i></a>
+                                                 <!-- <button class="btn btn-info"><i class="fas fa-plus"></i> obat</button> -->
+                        <a href="<?= base_url('keluar/detail/'.$k->id_keluar); ?>" class="btn btn-info" ><i class="fas fa-info"></i></a>
+                                               <a href="<?= base_url('jenis/detail/'. $jn['id_jenis']); ?>" class="btn btn-info" ><i class="fas fa-info"></i></a>
+                                              <a href="<?= base_url('distributor/detail/'. $d['id_distributor']); ?>" class="btn btn-info" ><i class="fas fa-info"></i></a>
+                                                <a href="<?= base_url('distributor/detail/'. $d['id_distributor']); ?>" class="btn btn-info" ><i class="fas fa-info"></i></a>
+                                                

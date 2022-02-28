@@ -1,0 +1,56 @@
+ERROR - 2021-12-24 02:52:38 --> Unknown column 'jumlah_masuk' in 'field list'
+CRITICAL - 2021-12-24 02:52:38 --> Unknown column 'jumlah_masuk' in 'field list'
+#0 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(280): mysqli->query()
+#1 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/Database/BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/Database/BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1875): CodeIgniter\Database\BaseConnection->query()
+#4 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/Model.php(298): CodeIgniter\Database\BaseBuilder->update()
+#5 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/BaseModel.php(865): CodeIgniter\Model->doUpdate()
+#6 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/Model.php(646): CodeIgniter\BaseModel->update()
+#7 /home/hades/Documents/mutiara/apotek-widyaa/app/Controllers/Masuk.php(169): CodeIgniter\Model->update()
+#8 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Masuk->edit()
+#9 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#10 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#11 /home/hades/Documents/mutiara/apotek-widyaa/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#12 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/home/hades/Doc...')
+#13 {main}
+ERROR - 2021-12-24 02:53:35 --> Unknown column 'tb_obat_masuk.jumlah_masuk' in 'field list'
+CRITICAL - 2021-12-24 02:53:35 --> Unknown column 'tb_obat_masuk.jumlah_masuk' in 'field list'
+#0 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(280): mysqli->query()
+#1 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/Database/BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/Database/BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1875): CodeIgniter\Database\BaseConnection->query()
+#4 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/Model.php(298): CodeIgniter\Database\BaseBuilder->update()
+#5 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/BaseModel.php(865): CodeIgniter\Model->doUpdate()
+#6 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/Model.php(646): CodeIgniter\BaseModel->update()
+#7 /home/hades/Documents/mutiara/apotek-widyaa/app/Controllers/Masuk.php(169): CodeIgniter\Model->update()
+#8 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Masuk->edit()
+#9 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#10 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#11 /home/hades/Documents/mutiara/apotek-widyaa/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#12 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/home/hades/Doc...')
+#13 {main}
+ERROR - 2021-12-24 02:53:35 --> Unknown column 'tb_obat_masuk.jumlah_masuk' in 'field list'
+CRITICAL - 2021-12-24 02:53:35 --> Unknown column 'tb_obat_masuk.jumlah_masuk' in 'field list'
+#0 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(280): mysqli->query()
+#1 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/Database/BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/Database/BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1875): CodeIgniter\Database\BaseConnection->query()
+#4 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/Model.php(298): CodeIgniter\Database\BaseBuilder->update()
+#5 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/BaseModel.php(865): CodeIgniter\Model->doUpdate()
+#6 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/Model.php(646): CodeIgniter\BaseModel->update()
+#7 /home/hades/Documents/mutiara/apotek-widyaa/app/Controllers/Masuk.php(169): CodeIgniter\Model->update()
+#8 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Masuk->edit()
+#9 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#10 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#11 /home/hades/Documents/mutiara/apotek-widyaa/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#12 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/home/hades/Doc...')
+#13 {main}
+CRITICAL - 2021-12-24 07:42:34 --> Trying to access array offset on value of type int
+#0 /home/hades/Documents/mutiara/apotek-widyaa/app/Controllers/Prekursor.php(123): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Prekursor->simpandata()
+#2 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#3 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/hades/Documents/mutiara/apotek-widyaa/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /home/hades/Documents/mutiara/apotek-widyaa/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/home/hades/Doc...')
+#6 {main}

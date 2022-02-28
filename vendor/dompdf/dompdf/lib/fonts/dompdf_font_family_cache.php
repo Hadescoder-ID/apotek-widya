@@ -1,0 +1,98 @@
+<?php return function ($fontDir, $rootDir) {
+return array (
+  'sans-serif' => array(
+    'normal' => $fontDir . '/Helvetica',
+    'bold' => $fontDir . '/Helvetica-Bold',
+    'italic' => $fontDir . '/Helvetica-Oblique',
+    'bold_italic' => $fontDir . '/Helvetica-BoldOblique',
+  ),
+  'times' => array(
+    'normal' => $fontDir . '/Times-Roman',
+    'bold' => $fontDir . '/Times-Bold',
+    'italic' => $fontDir . '/Times-Italic',
+    'bold_italic' => $fontDir . '/Times-BoldItalic',
+  ),
+  'times-roman' => array(
+    'normal' => $fontDir . '/Times-Roman',
+    'bold' => $fontDir . '/Times-Bold',
+    'italic' => $fontDir . '/Times-Italic',
+    'bold_italic' => $fontDir . '/Times-BoldItalic',
+  ),
+  'courier' => array(
+    'normal' => $fontDir . '/Courier',
+    'bold' => $fontDir . '/Courier-Bold',
+    'italic' => $fontDir . '/Courier-Oblique',
+    'bold_italic' => $fontDir . '/Courier-BoldOblique',
+  ),
+  'helvetica' => array(
+    'normal' => $fontDir . '/Helvetica',
+    'bold' => $fontDir . '/Helvetica-Bold',
+    'italic' => $fontDir . '/Helvetica-Oblique',
+    'bold_italic' => $fontDir . '/Helvetica-BoldOblique',
+  ),
+  'zapfdingbats' => array(
+    'normal' => $fontDir . '/ZapfDingbats',
+    'bold' => $fontDir . '/ZapfDingbats',
+    'italic' => $fontDir . '/ZapfDingbats',
+    'bold_italic' => $fontDir . '/ZapfDingbats',
+  ),
+  'symbol' => array(
+    'normal' => $fontDir . '/Symbol',
+    'bold' => $fontDir . '/Symbol',
+    'italic' => $fontDir . '/Symbol',
+    'bold_italic' => $fontDir . '/Symbol',
+  ),
+  'serif' => array(
+    'normal' => $fontDir . '/Times-Roman',
+    'bold' => $fontDir . '/Times-Bold',
+    'italic' => $fontDir . '/Times-Italic',
+    'bold_italic' => $fontDir . '/Times-BoldItalic',
+  ),
+  'monospace' => array(
+    'normal' => $fontDir . '/Courier',
+    'bold' => $fontDir . '/Courier-Bold',
+    'italic' => $fontDir . '/Courier-Oblique',
+    'bold_italic' => $fontDir . '/Courier-BoldOblique',
+  ),
+  'fixed' => array(
+    'normal' => $fontDir . '/Courier',
+    'bold' => $fontDir . '/Courier-Bold',
+    'italic' => $fontDir . '/Courier-Oblique',
+    'bold_italic' => $fontDir . '/Courier-BoldOblique',
+  ),
+  'dejavu sans' => array(
+    'bold' => $fontDir . '/DejaVuSans-Bold',
+    'bold_italic' => $fontDir . '/DejaVuSans-BoldOblique',
+    'italic' => $fontDir . '/DejaVuSans-Oblique',
+    'normal' => $fontDir . '/DejaVuSans',
+  ),
+  'dejavu sans mono' => array(
+    'bold' => $fontDir . '/DejaVuSansMono-Bold',
+    'bold_italic' => $fontDir . '/DejaVuSansMono-BoldOblique',
+    'italic' => $fontDir . '/DejaVuSansMono-Oblique',
+    'normal' => $fontDir . '/DejaVuSansMono',
+  ),
+  'dejavu serif' => array(
+    'bold' => $fontDir . '/DejaVuSerif-Bold',
+    'bold_italic' => $fontDir . '/DejaVuSerif-BoldItalic',
+    'italic' => $fontDir . '/DejaVuSerif-Italic',
+    'normal' => $fontDir . '/DejaVuSerif',
+  ),
+  'nunito' => array(
+    '200_italic' => $fontDir . '/nunito_200_italic_0c91247f53b2140fe2e15cbe71e80853',
+    '300_italic' => $fontDir . '/nunito_300_italic_ebb879cd88d06acc3dd4c75a1c0aa12f',
+    'italic' => $fontDir . '/nunito_italic_589f61aa2f723daad7faf5b29e23eabc',
+    '600_italic' => $fontDir . '/nunito_600_italic_c6526cdfcccdf7a0d48f9157adfbafc0',
+    'bold_italic' => $fontDir . '/nunito_bold_italic_e8865bdb4c0d07ab94e3c8d92b91424f',
+    '800_italic' => $fontDir . '/nunito_800_italic_c1f5415f8a31640408822c05d82114eb',
+    '900_italic' => $fontDir . '/nunito_900_italic_132ef0ac3f657a77b6e9bb4eeab74979',
+    '200' => $fontDir . '/nunito_200_2bcab6cfe81a5e863694a134834ce9fd',
+    '300' => $fontDir . '/nunito_300_f079062d4f2cf68c68d603d81a88b95d',
+    'normal' => $fontDir . '/nunito_normal_3fa7fc9c8b0a3e0826b3af956a1a7179',
+    '600' => $fontDir . '/nunito_600_bb3670f99865d7a631064b272de80906',
+    'bold' => $fontDir . '/nunito_bold_2314d8b2f2b167579ae8b29aa9b58208',
+    '800' => $fontDir . '/nunito_800_604839287f8a06a7a405b240f47c73c0',
+    '900' => $fontDir . '/nunito_900_07f3d278a0f4cc879dbfa6830b4a0d41',
+  ),
+);
+}; ?>
